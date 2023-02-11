@@ -3,35 +3,75 @@
 <html>
   <head>
     <title> Index </title>
-    <!-- CDN link -->
+   
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<!-- CDN link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
   </head>
 
-<body>
-  <header style="background-color: rgb(171, 141, 206);">
-    <strong style="color: aqua;"> <i class="fa fa-user" aria-hidden="true"></i> Name : Anupama Mundhe </strong> &nbsp; &nbsp;
-    <strong style="color: brown;"> <i class="fa fa-mobile" aria-hidden="true"></i> Mobile No : 9545123456 </strong> &nbsp; &nbsp;
-    <strong style="color: blanchedalmond;"> <i class="fa fa-envelope" aria-hidden="true"></i> Email ID : mundheanupama@gmail.com </strong>
+<body> 
+
+  <style>
+    #header{
+      margin: 2px 2px;
+      padding: 10px 10px;
+      background-color: rgb(171, 141, 206);
+      border-radius: 10px;
+      
+    }
+
+    #navigation{
+      margin: 2px 2px;
+      padding: 10px 10px;
+      background-color: rgb(96, 192, 112);
+      border-radius: 10px;
+
+    }
+   #myFrame{
+    background-color: rgb(218, 117, 117);
+    
+   }
+
+   #footer{
+      margin: 2px 2px;
+      padding: 10px 10px;
+      background-color: rgb(217, 241, 80);
+      border-radius: 10px;
+      font-family: 'Anton', sans-serif;
+   }
+    #a1, #a2, #a3, #a4, #a5, #a6, #headername, #headermono, headeremail{
+      margin-right: 20px;
+    }
+
+  </style>
+  <header id="header">
+    <strong id="headername" style="color: aqua;"> <i class="fa fa-user" aria-hidden="true"></i> Name : Anupama Mundhe </strong> 
+    <strong id="headermono" style="color: rgb(204, 94, 94);"> <i class="fa fa-mobile" aria-hidden="true"></i> Mobile No : 9545123456 </strong>
+    <strong id="headeremail" style="color: blanchedalmond;"> <i class="fa fa-envelope" aria-hidden="true"></i> Email ID : mundheanupama@gmail.com </strong>
   </header>
   <br>
-  <nav>
+  <nav id="navigation">
 
-    <a href="home.html" target="myFrame"> HOME </a> &nbsp; &nbsp;
-    <a href="techstack.html" target="myFrame"> TECH STACK </a> &nbsp; &nbsp;
-    <a href="education.html" target="myFrame"> EDUCATION </a> &nbsp; &nbsp;
-    <a href="project.html" target="myFrame"> PROJECT </a> &nbsp; &nbsp;
-    <a href="personal.html" target="myFrame"> PERSONAL </a> &nbsp; &nbsp;
-    <a href="contactus.html" target="myFrame"> CONTACT US </a>
+    <a id="a1" href="home.html" target="myFrame"> HOME </a> 
+    <a id="a2" href="techstack.html" target="myFrame"> TECH STACK </a> 
+    <a id="a3" href="education.html" target="myFrame"> EDUCATION </a> 
+    <a id="a4" href="project.html" target="myFrame"> PROJECT </a>
+    <a id="a5" href="personal.html" target="myFrame"> PERSONAL </a> 
+    <a id="a6" href="contactus.html" target="myFrame"> CONTACT US </a>
 
   </nav>
   <br> <br>
 
-  <iframe id="myFrame" width="1050px" height="450px" name="myFrame">
+  <iframe id="myFrame" width="1000px" height="450px" name="myFrame">
   </iframe>
   <br> <br>
 
-  <footer>
+  <footer id="footer">
     <strong> Follow Me : &nbsp; &nbsp; </strong>
     <a href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i> </a> &nbsp; &nbsp;
     <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook-official" aria-hidden="true"></i> </a> &nbsp; &nbsp;

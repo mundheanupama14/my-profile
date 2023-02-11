@@ -1,40 +1,125 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>  Contanct Us   </title>
+<html style="background-color: rgb(100,200,300);">
 
-    </head>
+<head>
+    <title> Contanct Us </title>
 
-    <body>
-           <h2> Contact Us </h2>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Cinzel:wght@600&family=Dancing+Script:wght@500&family=Oleo+Script&display=swap" rel="stylesheet">
 
-        <table>
-            <tbody>
-                <tr>
-                    <td> <label> Full Name: </label> </td>
-                    <td> <input type="text" placeholder="Max character lenght"> </td>
-                </tr>
+</head>
 
-                <tr>
-                    <td>  <label> Mobile No: </label> </td>
-                    <td>  <input type="number"> </td>
-                </tr>
+<body>
 
-                <tr>
-                    <td>  <label> Email Id: </label></td>
-                    <td>  <input type="email" placeholder="Ex.abc@gmail.com"> </td>
-               </tr>
+    <style>
+        h2 {
+            color: chocolate;
+            background-color: rgb(203, 241, 203);
+            margin: 2px 2px;
+            border-radius: 10px;
+            padding: 5px 5px;
+            font-family: 'Anton', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Oleo Script', cursive;
+        }
 
-                <tr>
-                    <td>   <label> Enquiry: </label></td>
-                    <td>
-                           <textarea rows="15" cols="30"> </textarea>
-                </tr> 
-                 
-                 </tbody>
-        </table>
-                  <button type="button"> Submit </button>
-                  <button type="button"> Clear </button>
+         table, th, tr, td { 
+             margin: 10px 10px;
+             padding: 2px 2px; 
+             background-color: rgb(143, 216, 134);
+             /* border: 1px solid black; */
+             /* border-collapse: collapse;  */
+             font-family: 'Anton', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Oleo Script', cursive;
 
-            </body>
+        } 
+
+        .lable, .click {
+            color: mediumvioletred;
+            margin: 5px 5px;
+            padding: 10px 10px;
+            background-color: rgb(214, 190, 166);
+            border: 2px solid black;
+            border-radius: 20px;
+            font-family: 'Anton', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Oleo Script', cursive;
+    
+
+        }
+
+        input[type="text"], input[type="number"], input[type="email"]{
+            color: mediumvioletred;
+            margin: 5px 5px;
+            padding: 10px 10px;
+            background-color: aqua;
+            border: 2px solid black;
+            border-radius: 10px;
+            font-size: 10px;
+
+            font-family: 'Anton', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Oleo Script', cursive;
+        }
+
+       #textarea{
+        font-family: Arial, Helvetica, sans-serif;
+        color: mediumvioletred;
+        /* width: 100px; */
+        /* height: 150px; */
+        margin: 5px 5px;
+        padding: 10px 10px;
+        border: 2px solid black;
+        border-radius: 20px;
+        background-color: aqua;
+        font: size 20px;
+        box-sizing: border-box;
+
+        font-family: 'Anton', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Oleo Script', cursive;
+
+       }
+
+    </style>
+
+    <h2> Contact Us </h2>
+
+    <table>
+        <tbody>
+            <tr>
+                <td> <label class="lable"> Full Name: </label> </td>
+                <td> <input type="text" placeholder="Max character lenght"> </td>
+            </tr>
+
+            <tr>
+                <td> <label class="lable"> Mobile No: </label> </td>
+                <td> <input type="number"> </td>
+            </tr>
+
+            <tr>
+                <td> <label class="lable"> Email Id: </label></td>
+                <td> <input type="email" placeholder="Ex.abc@gmail.com"> </td>
+            </tr>
+
+            <tr>
+                <td> <label class="lable"> Enquiry: </label></td>
+                <td>
+               <textarea id="textarea" rows="4" cols="30"> </textarea> 
+            </tr>
+
+        </tbody>
+    </table>
+    <button class="click" type="button"> Submit </button>
+    <button class="click" type="button"> Clear </button>
+
+</body>
+
 </html>
